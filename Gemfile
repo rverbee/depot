@@ -7,6 +7,15 @@ gem 'rails', '3.0.9'
 
 gem 'sqlite3'
 
+group :development, :test do
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+  gem 'rspec'
+  gem 'rspec-rails'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
